@@ -16,6 +16,25 @@ To try it out, run
 
     ~$ ./run.sh
 
+## features
+
+Grammar can identify
+
+    --boolean
+    --key value
+    --key=value
+    --key "a=b"
+    --key="string value"
+
+It doesn't work for
+
+    --multi key1=val1 key2=val2
+
+## Output
+
+output visualized using antlr4 test rig.
+
+![output](https://raw.githubusercontent.com/kalyan02/ArgParser/master/antlr4_parse_tree.png)
 
 ## License
 
